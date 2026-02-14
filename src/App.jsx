@@ -15,23 +15,27 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
+      "Era, will you PLEASE be my valentines?",
+      "Sanjida, will you PLEASEEE be my valentines?",
+      "But you already are my valentines!",
+      "ERAAA YOU ALREADY ARE MY VALENTINES WHY ARE YOU SAYING NO???",
+      "Come onnn Era just press the yes button pleaseee",
+      "Will you please be my valentines?",
+      "I'm gonna deliver flowers to your worplace if you say no",
+      "I'm gonna deliver flowers to your house if you say no again",
+      "Fine. Will you marry me then?",
+      "NO TO THAT AS WELL??? THATS CRAZYYY",
+      "Babe will you please be my valentines AND my wife",
+      "How tf did this turn into a valentines proposal to a marriage proposal?",
+      "But will you pleaseee say yes?",
       "Is that your final answer?",
       "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "Pleaseee? I'll do anythinggg ",
+      "I'm going to keep trying for an eternity.",
+      "Please don't make me wait an eternity",
+      "Fine. I love -",
+      "Bananas hahaha sike",
+      "Will you please be my valentines, Era?"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -61,7 +65,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Era, Will you be my Valentines?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
